@@ -1,10 +1,13 @@
                      Работа с БД
                                  Задание1
 
-SELECT courier_login, COUNT(*)AS delivery_count
-FROM order
-WHERE inDelivery = true
-GROUP BY courier_login;
+
+
+ SELECT c.login, COUNT(o.id) AS "deliveryCount"
+   FROM "Couriers" AS c
+   LEFT JOIN "Orders" AS o ON c.id = o."courierId"
+   WHERE o."inDelivery" = true
+   GROUP BY c.login;
 
                                   Задание 2
 
