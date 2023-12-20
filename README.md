@@ -43,6 +43,6 @@
 
 Для запуска теста необходимо в файл configuration скопировить URLстенда вида https://7b6b5ade-dbda-4523-aad6-50978727d2a9.serverhub.praktikum-services.ru
 
-В файле track_order_test нажать кнопку Run
-были установлены сл. пакеты  pytest, requests
+В файле track_order_test нажать кнопку Run,
+были установлены сл. пакеты:  pytest, requests
 
