@@ -1,7 +1,7 @@
                      Работа с БД
                                  Задание1
 
-SELECT courier_login, COUNT(*)AS number_of_orders
+SELECT courier_login, COUNT(*)AS delivery_count
 FROM order
 WHERE inDelivery = true
 GROUP BY courier_login;
